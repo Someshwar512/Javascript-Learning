@@ -3,3 +3,11 @@ let age = 22; // Number
 let isOnline = true; // Boolean
 let users = ["A", "B"]; // Array
 let person = {name:"Sonu"}; // Object
+
+let usersData={
+    id:1,
+    name:"Sonu",
+    role:"Backend Developer"
+
+
+}
