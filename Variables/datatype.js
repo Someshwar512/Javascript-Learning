@@ -17,3 +17,15 @@ let a=7,b=8;
 console.log (c=a+b);
 
 console.log("Hello");
+
+const obj = {
+  a: "foo",
+  b: function () {
+    console.log(this.a);
+  },
+};
+
+const c = obj.b;
+
+obj.b();
+c();
